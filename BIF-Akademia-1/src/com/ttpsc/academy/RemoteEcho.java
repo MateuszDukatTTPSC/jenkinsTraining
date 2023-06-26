@@ -38,7 +38,7 @@ public class RemoteEcho implements RemoteAccess {
 	public static void echo(String message) {
 		System.out.println(message);
 	}
-
+//comment
 	public static void readProperty(String param) throws IOException {
 
 		WTProperties wt = WTProperties.getLocalProperties();
